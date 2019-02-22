@@ -1,0 +1,61 @@
+body {
+  background: #888;
+  margin: 5% 10% 5% 10%;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+.accordion {
+  border-radius: 0 !important;
+  border: none !important;
+}
+
+.accordion .accordion-item .title {
+  font-size: 1em !important;
+  color: #000 !important;
+  background-color: #888 !important;
+  padding: 0.5em 0 !important;
+}
+
+.accordion .accordion-item.active .title:after {
+  content: "" !important;
+}
+.accordion .accordion-item .title:after {
+  content: "" !important;
+}
+
+/*.App {
+  font-family: sans-serif;
+  text-align: center;
+}*/
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  display: inline-block;
+  width: 20%;
+}
+
+ul {
+  list-style: none;
+  margin-left: -2em;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+@media only screen and (max-width: 50em) {
+  .wrapper {
+    display: block;
+  }
+  .item {
+    display: block;
+    width: 100%;
+  }
+}

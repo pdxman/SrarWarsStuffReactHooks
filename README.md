@@ -1,2 +1,0 @@
-# SrarWarsStuffReactHooks
-Created with CodeSandbox
